@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    font-family: "Foldit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+    font-size: 45px;
+    text-decoration: none;
+}
+
+.nav-container{
+    background-color: rgb(253, 249, 249);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    z-index: 1;
+    padding: 10px 20px;
+
+}
+
+.nav-content{
+    font-family: "Foldit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+    font-size: 30px;
+}
+.home-container{
+    background-image: url('images/coder-bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.home-content{
+    position: absolute;
+    right: 0;
+    top: 45%;
+    left: 75%;
+}
+
+.home-content h1{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.home-content p{
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.home-content span{
+    color:rgb(218, 197, 12);
+    font-weight: 900;
+}
+
+.home-content a i{
+    font-size: 35px;
+    text-align: center;
+    padding-right: 25px;
+    color: #ffffff;
+}
+
+.section-heading h5{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(144, 143, 143);
+}
+
+.section-heading h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+.about-container{
+    font-family: sans-serif;
+    padding: 25px;
+    margin: 25px;
+}
+.about-content ul li span{
+    font-weight: 800;
+    font-size: 16px;
+}
+.skills-container{
+    background-color: rgb(20, 12, 50);
+    font-family: sans-serif;
+    padding: 25px;
+}
+.skills-container h1{
+    font-size: 40px;
+    padding: 15px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.skills-content{
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+}
+.skills-content h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+.skills-images{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 35px;
+}
+.skills-images img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.content a:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.project-container{
+    font-family: sans-serif;
+}
+.project-container h1{
+    font-size: 40px;
+    padding: 15px;
+    font-weight: 600;
+}
+.card-container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contact-container{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(205, 203, 203);
+}
+.mail-text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.contact-container h1{
+    font-size: 40px;
+    padding: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.form-container{
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+    padding-bottom: 35px;
+}
+footer{
+    z-index: 1;
+    background-color: rgb(215, 214, 212);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 25px;
+    padding: 10px;
+}
+
+
+
